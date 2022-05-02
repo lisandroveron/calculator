@@ -1,0 +1,15 @@
+body{
+	background-color: #161616;
+	color: white;
+}
+.calculator{
+	color: initial;
+	background-color: lightgreen;
+	height: 330px;
+	width: 220px;
+	padding: 5px;
+}
+.button{
+	height: 100%;
+	width: 100%;
+}
