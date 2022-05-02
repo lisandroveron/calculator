@@ -1,13 +1,19 @@
 body{
-	background-color: #161616;
+	border: 1px solid red;
+	background-color: #0c0c0c;
 	color: white;
+	text-align: center;
 }
 .calculator{
 	color: initial;
-	background-color: lightgreen;
+	background-color: #262626;
 	height: 330px;
 	width: 220px;
 	padding: 5px;
+	margin: auto;	
+}
+.screen{
+	background-color: #8da78b;
 }
 .button{
 	height: 100%;
