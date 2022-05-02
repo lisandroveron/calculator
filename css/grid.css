@@ -1,6 +1,10 @@
+body{
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
 .calculator{
 	display: grid;
-	grid-template-rows: 2em 1fr;
+	grid-template-rows: 4em 1fr;
 	grid-template-columns: 1fr;
 	grid-gap: 5px;
 }
