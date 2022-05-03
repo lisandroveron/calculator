@@ -18,12 +18,14 @@ body{
 }
 .screen{
 	font-family: technology;
-	background-color: #8da78b;
 }
 .resultLine{
 	pointer-events: none;
 }
 .resultLine, .writeLine{
+	background-color: #8da78b;
+	border: none;
+	text-align: right;
 	/*letter-spacing: 1;*/
 }
 .button, .buttonC{
@@ -35,5 +37,10 @@ body{
 }
 .buttonC{
 	background-color: #d32121;
+}
+.buttonErase{
+	background-color: #3c7a2e;
+}
+.buttonC, .buttonErase{
 	border-radius: 0px;
 }
