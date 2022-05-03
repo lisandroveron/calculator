@@ -13,8 +13,7 @@ body{
 	grid-template-columns: 1fr 0.15fr;
 	grid-template-rows: 1fr 1fr;
 	grid-template-areas: "resultLine buttonC"
-						 "writeLine buttonC";
-	grid-column-gap: 1px;
+						 "writeLine buttonErase";
 }
 .resultLine{
 	grid-area: resultLine;
@@ -24,6 +23,9 @@ body{
 }
 .buttonC{
 	grid-area: buttonC;
+}
+.buttonErase{
+	grid-area: buttonErase;
 }
 .keyboard{
 	display: grid;
