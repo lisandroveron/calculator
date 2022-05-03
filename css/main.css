@@ -1,5 +1,9 @@
+@font-face{
+	font-family: technology;
+	src: url("../assets/fonts/Technology.ttf");
+}
+
 body{
-	border: 1px solid red;
 	background-color: #0c0c0c;
 	color: white;
 	text-align: center;
@@ -13,12 +17,23 @@ body{
 	margin: auto;	
 }
 .screen{
+	font-family: technology;
 	background-color: #8da78b;
 }
-.button{
+.resultLine{
+	pointer-events: none;
+}
+.resultLine, .writeLine{
+	/*letter-spacing: 1;*/
+}
+.button, .buttonC{
 	background-color: #595959;
 	border: none;
 	border-radius: 5px;
 	height: 100%;
 	width: 100%;
+}
+.buttonC{
+	background-color: #d32121;
+	border-radius: 0px;
 }
