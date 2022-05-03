@@ -1,4 +1,3 @@
-const calculator = document.getElementById("calculator");
 const keyboard = document.getElementById("keyboard");
 let writeLine = document.getElementById("writeLine");
 writeLine.value = "";
