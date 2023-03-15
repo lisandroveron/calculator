@@ -31,7 +31,6 @@ body{
 .button, .buttonC{
 	background-color: #595959;
 	border: none;
-	border-radius: 5px;
 	height: 100%;
 	width: 100%;
 }
@@ -40,7 +39,4 @@ body{
 }
 .buttonErase{
 	background-color: #3c7a2e;
-}
-.buttonC, .buttonErase{
-	border-radius: 0px;
 }
